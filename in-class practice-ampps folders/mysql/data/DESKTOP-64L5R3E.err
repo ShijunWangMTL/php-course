@@ -1,0 +1,64 @@
+2021-03-13T20:09:32.622580Z 0 [System] [MY-010116] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe (mysqld 8.0.18) starting as process 10096
+2021-03-13T20:09:34.202467Z 0 [ERROR] [MY-011947] [InnoDB] Cannot open 'D:\JA courses\14-PHP programming\Ampps\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2021-03-13T20:09:34.327777Z 0 [Warning] [MY-010075] [Server] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 07780e5c-8438-11eb-8d4f-fc3fdb43f9a3.
+2021-03-13T20:09:34.677185Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-13T20:09:35.018792Z 0 [System] [MY-010931] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: ready for connections. Version: '8.0.18'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2021-03-13T20:09:35.052513Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2021-03-13T20:32:33.040674Z 33 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.18).
+2021-03-13T20:32:33.041348Z 0 [System] [MY-013105] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Normal shutdown.
+2021-03-13T20:32:33.792954Z 0 [System] [MY-010910] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.0.18)  MySQL Community Server - GPL.
+2021-03-13T20:33:45.316636Z 0 [System] [MY-010116] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe (mysqld 8.0.18) starting as process 3372
+2021-03-13T20:33:46.354093Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-13T20:33:46.435709Z 0 [System] [MY-010931] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: ready for connections. Version: '8.0.18'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2021-03-13T20:33:46.624229Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2021-03-13T21:47:46.437089Z 84 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.18).
+2021-03-13T21:47:46.438948Z 0 [System] [MY-013105] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Normal shutdown.
+2021-03-13T21:47:47.227657Z 0 [System] [MY-010910] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.0.18)  MySQL Community Server - GPL.
+2021-03-13T21:47:50.404267Z 0 [System] [MY-010116] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe (mysqld 8.0.18) starting as process 8480
+2021-03-13T21:47:51.902887Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-13T21:47:51.992039Z 0 [System] [MY-010931] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: ready for connections. Version: '8.0.18'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2021-03-13T21:47:52.054656Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2021-03-13T21:47:58.733200Z 8 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.18).
+2021-03-13T21:47:58.735101Z 0 [System] [MY-013105] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Normal shutdown.
+2021-03-13T21:47:59.669549Z 0 [System] [MY-010910] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.0.18)  MySQL Community Server - GPL.
+2021-03-13T21:48:03.949693Z 0 [System] [MY-010116] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe (mysqld 8.0.18) starting as process 472
+2021-03-13T21:48:05.658580Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-13T21:48:05.734237Z 0 [System] [MY-010931] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: ready for connections. Version: '8.0.18'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2021-03-13T21:48:05.890151Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2021-03-14T20:55:22.973425Z 0 [System] [MY-010116] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe (mysqld 8.0.18) starting as process 4084
+2021-03-14T20:55:24.586956Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2021-03-14T20:55:24.600322Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2021-03-14T20:55:24.689504Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-14T20:55:24.810132Z 0 [System] [MY-010931] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: ready for connections. Version: '8.0.18'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2021-03-14T20:55:24.921425Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2021-03-15T02:18:14.472072Z 8 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.18).
+2021-03-15T02:18:14.473122Z 0 [System] [MY-013105] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Normal shutdown.
+2021-03-15T02:18:14.603168Z 0 [System] [MY-010910] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.0.18)  MySQL Community Server - GPL.
+2021-03-16T21:45:43.711055Z 0 [System] [MY-010116] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe (mysqld 8.0.18) starting as process 19156
+2021-03-16T21:45:46.056271Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-16T21:45:46.209051Z 0 [System] [MY-010931] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: ready for connections. Version: '8.0.18'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2021-03-16T21:45:46.428474Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2021-03-16T21:46:16.754881Z 0 [System] [MY-010116] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe (mysqld 8.0.18) starting as process 18168
+2021-03-16T21:46:16.795940Z 1 [ERROR] [MY-012271] [InnoDB] The innodb_system data file 'ibdata1' must be writable
+2021-03-16T21:46:16.796913Z 1 [ERROR] [MY-012278] [InnoDB] The innodb_system data file 'ibdata1' must be writable
+2021-03-16T21:46:16.797777Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2021-03-16T21:46:16.798837Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-03-16T21:46:16.800085Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-03-16T21:46:16.804633Z 0 [System] [MY-010910] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.0.18)  MySQL Community Server - GPL.
+2021-03-16T23:28:10.100854Z 63 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.18).
+2021-03-16T23:28:10.102144Z 0 [System] [MY-013105] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Normal shutdown.
+2021-03-16T23:28:10.423550Z 0 [System] [MY-010910] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.0.18)  MySQL Community Server - GPL.
+2021-03-16T23:43:26.852371Z 0 [System] [MY-010116] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe (mysqld 8.0.18) starting as process 17140
+2021-03-16T23:43:27.658638Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-16T23:43:27.731741Z 0 [System] [MY-010931] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: ready for connections. Version: '8.0.18'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2021-03-16T23:43:27.775876Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2021-03-17T22:40:35.137295Z 0 [System] [MY-010116] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe (mysqld 8.0.18) starting as process 7560
+2021-03-17T22:40:35.158116Z 1 [ERROR] [MY-012271] [InnoDB] The innodb_system data file 'ibdata1' must be writable
+2021-03-17T22:40:35.159065Z 1 [ERROR] [MY-012278] [InnoDB] The innodb_system data file 'ibdata1' must be writable
+2021-03-17T22:40:35.160174Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2021-03-17T22:40:35.161015Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-03-17T22:40:35.161578Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-03-17T22:40:35.162802Z 0 [System] [MY-010910] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.0.18)  MySQL Community Server - GPL.
+2021-03-17T22:40:40.046643Z 1390 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.18).
+2021-03-17T22:40:40.047467Z 0 [System] [MY-013105] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Normal shutdown.
+2021-03-17T22:40:40.552316Z 0 [System] [MY-010910] [Server] D:\JA courses\14-PHP programming\Ampps\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.0.18)  MySQL Community Server - GPL.

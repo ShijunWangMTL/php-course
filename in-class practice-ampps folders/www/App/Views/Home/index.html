@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Course Management App{% endblock %}
+{% block pagetitle %}Course Management App{% endblock %}
+
+{% block body %}
+<h2>Welcome to Course Management App!</h2>
+
+
+
+<center>
+    <ul class="pagination hidden-print">
+        <?php for ($i = 1; $i <= $pages; $i++): ?>
+        <li>
+            <a href="?page=<?php echo $i; ?>&per-page=<?php echo $perPage; ?>">
+                <?php echo $i; ?>
+            </a>
+        </li>
+        <?php endfor; ?>
+    </ul>
+</center>
+
+
+
+<!-- comments cannot be placed outside the twig 
+    otherwise error: 
+    A template that extends another one cannot include content outside Twig blocks-->
+{% endblock %}

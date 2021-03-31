@@ -1,0 +1,12 @@
+1. edit file "hosts" in
+    C:\Windows\System32\drivers\etc
+
+    127.0.0.1 dummy-host2.example.com
+
+2. edit file "httpd-vhosts.conf" in
+    C:\xampp\apache\conf\extra
+
+    <VirtualHost *:80>
+        DocumentRoot "/xampp/htdocs/php-autoloading/"
+        ServerName dummy-host2.example.com
+    </VirtualHost>

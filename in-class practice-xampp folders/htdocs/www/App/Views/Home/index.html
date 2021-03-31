@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+    
+
+    <h1>Welcome</h1>
+        <p>Hello from Twig template, {{ name }}!</p>
+
+        <ul>
+            {% for color in colors %}
+                <li>{{ color }}</li>
+            {% endfor %}
+        </ul>
+        
+<!-- comments cannot be placed outside the twig 
+    otherwise error: 
+    A template that extends another one cannot include content outside Twig blocks-->
+{% endblock %}
+

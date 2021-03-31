@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}Course List{% endblock %}
+{% block pagetitle %}Course List{% endblock %}
+
+{% block body %}
+<button type="button" data-target="#myModal" data-toggle="modal"
+    class="btn btn-success hidden-print">Add Course</button>
+<button type="button" class="btn btn-default pull-right hidden-print"
+    onclick="print()">Print</button>
+<hr><br>
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close"
+                    data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Add a course</h4>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="add">
+                    <div class="form-group">
+                        <label>Course Name</label>
+                        <input type="text" required name="courseName" class="">
+                        <br><br>
+                        <label>Instructor</label>
+                        <input type="text" name="instructor" class="">
+                        <br><br>
+                        <label>Textbook</label>
+                        <input type="text" name="textbook" class="">
+                    </div>
+                    <input type="submit" name="send" value="Save"
+                        class="btn btn-success">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                    data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-12 text-center hidden-print">
+    <form action="search.php" method="post" class="form-group">
+        <input type="text" placeholder="Search..." name="search"
+            class="form-control">
+        <br>
+        <input type="submit" name="" value="Search" class="btn btn-warning">
+    </form>
+</div>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Course ID</th>
+            <th scope="col">Course Name</th>
+            <th scope="col">Instructor</th>
+            <th scope="col">Textbook</th>
+            <th scope="col" class="hidden-print">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for course in courses %}
+        
+        <tr>
+            <td scope="row" class="">
+                {{ course.id }}
+            </td>
+            <td class="col-md-3">
+                {{ course.courseName }}
+            </td>
+            <td class="col-md-3">
+                {{ course.instructor }}
+            </td>
+            <td class="col-md-3">
+                {{ course.textbook }}
+            </td>
+            <td>
+                <a href="update.php?id=<?php echo $row['id']; ?>"
+                    class="btn btn-success hidden-print">Edit</a>
+                <a href="delete.php?id=<?php echo $row['id']; ?>"
+                    class="btn btn-danger hidden-print">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+{% endblock %}

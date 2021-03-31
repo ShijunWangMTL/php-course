@@ -1,0 +1,16 @@
+{
+    "name": "shijun/learning_composer",
+    "description": "I am learning how to use composer.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "john.doe@example.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.45",
+        "intervention/image": "^2.5"
+    }
+}
